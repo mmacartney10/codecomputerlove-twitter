@@ -1,0 +1,25 @@
+.heart-container {
+  background-color: #ed432b;
+  width: 100vw;
+  height: 100vh; }
+
+.heart {
+  width: 100%;
+  margin: 0 auto; }
+  .heart div {
+    width: 12.6%;
+    padding-top: 12.6%;
+    margin: 0.5%;
+    display: inline-block;
+    background-size: cover; }
+  .heart .block {
+    background-color: #ffffff; }
+
+@media (min-width: 600px) and (max-width: 999px) {
+  .heart {
+    width: 80%; } }
+@media (min-width: 1000px) {
+  .heart {
+    width: 800px; } }
+
+/*# sourceMappingURL=heart.css.map */

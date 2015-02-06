@@ -1,0 +1,20 @@
+$D-width-medium: 600px;
+$D-width-large: 1000px;
+
+$C-white:#ffffff;
+$C-white-dark:#e7e7e7;
+$C-red:#ed432b;
+
+$C-black-border:rgba(20, 20, 20, 0.4);
+
+@mixin BP-medium {
+  @media (min-width: #{$D-width-medium}) and (max-width: #{$D-width-large - 1px}) {
+    @content;
+  }
+}
+
+@mixin BP-large {
+  @media (min-width: #{$D-width-large}){
+    @content;
+  }
+}

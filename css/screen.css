@@ -1,0 +1,64 @@
+.heart-container {
+  background-color: #ed432b;
+  width: 100vw;
+  height: 100vh; }
+
+.heart {
+  width: 100%;
+  margin: 0 auto; }
+  .heart div {
+    width: 12.6%;
+    padding-top: 12.6%;
+    margin: 0.5%;
+    display: inline-block;
+    background-size: cover; }
+  .heart .block {
+    background-color: #ffffff; }
+
+@media (min-width: 600px) and (max-width: 999px) {
+  .heart {
+    width: 80%; } }
+@media (min-width: 1000px) {
+  .heart {
+    width: 800px; } }
+body {
+  margin: 0;
+  background-color: #e7e7e7; }
+
+.container {
+  transition: all 1s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  margin: 0 auto;
+  overflow-y: scroll;
+  box-shadow: 0px 0px 3px rgba(20, 20, 20, 0.4); }
+  .container div {
+    transition: all 1s ease-in-out;
+    width: 90%;
+    min-height: 50px;
+    overflow: hidden;
+    border-bottom: 2px solid rgba(20, 20, 20, 0.4);
+    padding: 20px 5%; }
+    .container div img {
+      float: left;
+      margin: 0 10px; }
+    .container div li {
+      list-style-type: none;
+      list-style-type: none;
+      color: #424242;
+      font-style: normal; }
+    .container div li:last-child {
+      float: right;
+      padding: 5px 0 0;
+      font-size: 12px;
+      color: rgba(20, 20, 20, 0.4); }
+
+@media (min-width: 600px) and (max-width: 999px) {
+  .container {
+    width: 80%; } }
+@media (min-width: 1000px) {
+  .container {
+    width: 80%; } }
+
+/*# sourceMappingURL=screen.css.map */

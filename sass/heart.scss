@@ -1,0 +1,38 @@
+@import 'mixin';
+
+.heart-container{
+	background-color:$C-red;
+	width:100vw;
+	height:100vh;
+}
+
+.heart{
+	width:100%;
+	margin:0 auto;
+
+	div{
+		width:12.6%;
+		padding-top: 12.6%;
+		margin:0.5%;
+		display:inline-block;
+		background-size:cover;
+	}
+
+	.block{
+		background-color:$C-white;
+	}
+}
+
+@include BP-medium{
+
+	.heart{
+		width:80%;
+	}
+}
+
+@include BP-large{
+
+	.heart{
+		width:800px;
+	}
+}
